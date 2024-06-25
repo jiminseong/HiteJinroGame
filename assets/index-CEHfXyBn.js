@@ -366,7 +366,6 @@ Error generating stack: `+o.message+`
     width: 25%;
     height: 8%;
     z-index: 1;
-    background : #2323;
 `,Ux=R.img`
     position: absolute;
     bottom: 0;
@@ -446,7 +445,6 @@ Error generating stack: `+o.message+`
     width: 20%;
     height: 5%;
     z-index: 1;
-    background : #2323;
 `,eE=R.img`
     position: absolute;
     bottom: 0;
