@@ -26,10 +26,10 @@ export default Onboarding;
 
 const fadeIn = keyframes`
     from {
-        opacity: 1;
+        opacity: 0;
     }
     to {
-        opacity: 0;
+        opacity: 1;
     }
 `;
 
@@ -45,10 +45,10 @@ const OnboardingWrapper = styled.div`
 
 const OnboardingMsg = styled.div`
     color: #0A5FB2;
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: 700;
     font-family: 'Pretendard';
     text-align: center;
-    margin-bottom: 2.5em;
+    margin-bottom: 4em;
     animation: ${fadeIn} 3.5s forwards;
 `;

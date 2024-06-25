@@ -27,10 +27,10 @@ export default GameInfoSoju;
 
 const fadeIn = keyframes`
     from {
-        opacity: 1;
+        opacity: 0;
     }
     to {
-        opacity: 0;
+        opacity: 1;
     }
 `;
 
@@ -49,4 +49,5 @@ const InfoWrapper = styled.div`
 const Info = styled.img`
     width : 50%;
     animation: ${fadeIn} 3.5s forwards;
+    margin-bottom : 4em;
 `

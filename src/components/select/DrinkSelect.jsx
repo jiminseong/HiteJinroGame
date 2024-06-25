@@ -48,11 +48,12 @@ const DrinkSelectWrapper = styled.div`
 `;
 
 const GameLogo = styled.img`
-    margin-top : 2.5em;
+    margin-top : 4em;
     width:50%;
 `;  
 
 const StyledSwiper = styled(Swiper)`
+    margin-top : -7em;
     height : 100%;
     width : 100%;
     margin-bottom : 2.5em;
@@ -66,16 +67,19 @@ const StyledSwiperSlide= styled(SwiperSlide)`
     justify-content : center;
     align-items : center;
     flex-direction : column;
+    
 `;
 
 const DrinkImg = styled.img`
     width : 45%;
-    height : 80%;
+    height : 60%;
+    margin-bottom : 4em;
 `;
 
 const DrinkImg2 = styled.img`
     width : 45%;
-    height : 80%;
+    height : 60%;
+    margin-bottom : 4em;
 `;
 
 const NameSubmit = styled.div`
@@ -86,7 +90,8 @@ const NameSubmit = styled.div`
     background: #0A5FB2;
     box-shadow: 0px 4px 10px rgba(0, 22, 44, 0.05), 2px -4px 10px rgba(0, 22, 44, 0.05);
     border-radius: 16px;
-    
+    margin-bottom : 4em;
+
     display : flex;
     justify-content : center;
     align-items : center;

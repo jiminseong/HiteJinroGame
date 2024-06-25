@@ -43,7 +43,7 @@ const Home = () => {
             {modal && 
                 <ModalWrapper>
                     <Modal>
-                        인원이 너무 많습니다!<br/>6명 이하로 입력해주세요!
+                        인원이 너무 많습니다!<br/>5명 이하로 입력해주세요!
                         <CloseIcon src={closeIcon} onClick={()=>setModal(false)}/>
                     </Modal>
                 </ModalWrapper>
@@ -68,6 +68,7 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 4em;
     gap: 2.5em;
 `;
 

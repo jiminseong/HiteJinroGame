@@ -75,6 +75,8 @@ const NameEntry = styled.div`
 
 
 const Item = styled.div`
+    width : 80%;
+    height : 80%;
     font-size : 1.5em;
     color : #0A5FB2;
     display: flex;
@@ -82,7 +84,7 @@ const Item = styled.div`
 `;
 
 const Idx = styled.div`
-    width : 2.5em;
+    width : 20%;
     display : flex;
     justify-content : center;
     align-items : center;
@@ -95,7 +97,7 @@ const Idx = styled.div`
 
 const NameInput = styled.input`
     width: 100%;
-    height: 65px;
+    height: 100%;
     padding-left: 2%;
     border : none;
     background: #B8D6FF;
@@ -103,6 +105,7 @@ const NameInput = styled.input`
     border-radius: 16px;
     font-size : 1em;
     color : #0A5FB2;
+    
 
     &:focus {
         outline : none;
@@ -115,6 +118,7 @@ const NameSubmit = styled.div`
     background: #0A5FB2;
     box-shadow: 0px 4px 10px rgba(0, 22, 44, 0.05), 2px -4px 10px rgba(0, 22, 44, 0.05);
     border-radius: 16px;
+    margin-bottom : 4em;
     
     display : flex;
     justify-content : center;

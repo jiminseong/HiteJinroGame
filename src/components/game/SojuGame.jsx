@@ -37,8 +37,10 @@ const SojuGame = () => {
             <PeopleArea>
                 {names[currentTurnIndex]} 차례입니다
             </PeopleArea>
-            <TouchArea onClick={handleNextTurn}></TouchArea>
-            <DrinkImg src={jinroGold} />
+            
+            <DrinkImg>
+                <TouchArea onClick={handleNextTurn}></TouchArea>
+            </DrinkImg>
             {modal && 
                 <ModalWrapper>
                     <Modal>
@@ -90,17 +92,20 @@ const PeopleArea = styled.div`
 `;
 
 const TouchArea = styled.div`
-    position: absolute;
-    margin-top: 55%;
-    width: 25%;
-    height: 8%;
-    z-index: 1;
+    width: 40%;
+    height: 20%;
 `;
 
-const DrinkImg = styled.img`
+const DrinkImg = styled.div`
     position: absolute;
+    background-image: url(${jinroGold});
+    background-size: cover;
+    display : flex;
+    justify-content :center;
+    align-items : start;
     bottom: 0;
-    width: 60%;
+    width: 70%;
+    height : 70%;
 `;
 
 const ModalWrapper = styled.div`
