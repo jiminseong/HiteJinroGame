@@ -111,7 +111,7 @@ Error generating stack: `+o.message+`
     text-align: center;
     margin-bottom: 2.5em;
     animation: ${Dy} 3.5s forwards;
-`,Vy=()=>{const e=Je();return P.useEffect(()=>{const t=setTimeout(()=>{e("/home")},3500);return()=>clearTimeout(t)},[e]),_.jsx(Uy,{children:_.jsxs(Gy,{children:["사이트 내 로고 디자인 및 등은",_.jsx("br",{}),"하이트 진로그룹(주)의 것입을 밝힙니다."]})})},Wy=Mn`
+`,Vy=()=>{const e=Je();return P.useEffect(()=>{const t=setTimeout(()=>{e("/home")},3500);return()=>clearTimeout(t)},[e]),_.jsx(Uy,{children:_.jsxs(Gy,{children:["사이트 내 로고 디자인 및 등은",_.jsx("br",{}),"하이트 진로그룹(주)의 것임을 밝힙니다."]})})},Wy=Mn`
     from {
         opacity: 1;
     }
