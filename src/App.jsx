@@ -12,12 +12,13 @@ import BeerGame from './components/game/BeerGame';
 import Onboarding from './components/onboarding/Onboarding';
 import GameInfoSoju from './components/game/GameInfoSoju';
 import GameInfoBeer from './components/game/GameInfoBeer';
+import NotFound from './components/other/NotFound';
 
 function App() {
   return (
     <>
     <Routes>
-      <Route exact path="/" element={<Onboarding/>}/>
+      <Route exact path="/HiteJinroGame" element={<Onboarding/>}/>
       <Route path="/1" element={<Onboarding1/>} />
       <Route path="/2" element={<Onboarding2/>} />
       <Route path="/3" element={<Onboarding3/>} />
@@ -31,7 +32,7 @@ function App() {
       <Route path='/infobeer' element={<GameInfoBeer/>}/>
       <Route path="/soju" element={<SojuGame/>}/>
       <Route path="/beer" element={<BeerGame/>}/>
-
+      <Route path='*' element={<NotFound/>}/>
     </Routes>
   </>
   )

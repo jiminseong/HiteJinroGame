@@ -14,7 +14,7 @@ const Home = () => {
     const navigate = useNavigate();
 
     const handleSubmit = () => {
-        if (parseInt(inputCount) > 8) {
+        if (parseInt(inputCount) > 5) {
             setModal(true);
         } else {
             dispatch(setParticipantCount(parseInt(inputCount)));
@@ -43,7 +43,7 @@ const Home = () => {
             {modal && 
                 <ModalWrapper>
                     <Modal>
-                        인원이 너무 많습니다!<br/>8명 이하로 입력해주세요!
+                        인원이 너무 많습니다!<br/>6명 이하로 입력해주세요!
                         <CloseIcon src={closeIcon} onClick={()=>setModal(false)}/>
                     </Modal>
                 </ModalWrapper>

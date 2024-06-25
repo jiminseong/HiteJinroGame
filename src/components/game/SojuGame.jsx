@@ -91,17 +91,16 @@ const PeopleArea = styled.div`
 
 const TouchArea = styled.div`
     position: absolute;
-    margin-top: 70%;
-    width: 30%;
+    margin-top: 55%;
+    width: 25%;
     height: 8%;
     z-index: 1;
-
 `;
 
 const DrinkImg = styled.img`
     position: absolute;
     bottom: 0;
-    width: 80%;
+    width: 60%;
 `;
 
 const ModalWrapper = styled.div`
@@ -119,7 +118,7 @@ const ModalWrapper = styled.div`
 
 const Modal = styled.div`
     
-    width: 80%;
+    width: 60%;
     height : 30%;
     top: 20%;
     z-index: 10;

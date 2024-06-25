@@ -27,7 +27,7 @@ const DrinkSelect = () => {
                 <StyledSwiperSlide>
                     <DrinkImg2 src={kelly}/>
                         <NameSubmit onClick={()=>navigate('/infobeer')}>
-                            켈리 골드 마시기!
+                            켈리 마시기!
                         </NameSubmit>
                 </StyledSwiperSlide>
             </StyledSwiper>
@@ -48,36 +48,39 @@ const DrinkSelectWrapper = styled.div`
 `;
 
 const GameLogo = styled.img`
+    margin-top : 2.5em;
     width:50%;
 `;  
 
 const StyledSwiper = styled(Swiper)`
-    margin-top : 2.5em;
-    height : 80%;
+    height : 100%;
     width : 100%;
+    margin-bottom : 2.5em;
 `;
 
 const StyledSwiperSlide= styled(SwiperSlide)`
+    position : relative;
     width : 100%;
     height : 100%;
     display : flex;
     justify-content : center;
     align-items : center;
-    gap : 2em;
     flex-direction : column;
 `;
 
 const DrinkImg = styled.img`
-    width : 55%;
-    height : 700px;
+    width : 45%;
+    height : 80%;
 `;
 
 const DrinkImg2 = styled.img`
-    width : 50%;
-    height : 700px;
+    width : 45%;
+    height : 80%;
 `;
 
 const NameSubmit = styled.div`
+    position : absolute;
+    bottom : 0;
     width: 80%;
     height: 65px;
     background: #0A5FB2;

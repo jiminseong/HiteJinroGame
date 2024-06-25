@@ -17,7 +17,7 @@ const Onboarding3 = () => {
         <OnboardingWrapper>
             <OnboardingMsg>
             사이트 내 로고 디자인 및 등은<br/>
-            하이트 진로그룹(주)의 것입을 밝힙니다.
+            하이트 진로그룹(주)의 것임을 밝힙니다.
             </OnboardingMsg>
         </OnboardingWrapper>
     );
